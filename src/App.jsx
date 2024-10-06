@@ -2,7 +2,8 @@
 // import Songs from "./components/Songs";
 // import UseStateHook from "./components/UseStateHook";
 // import CardSlide from "./components/CardSlide";
-import Friends from "./components/Friends/Friends";
+// import Friends from "./components/Friends/Friends";
+import Music from "./components/Music/Music";
 // import "./App.css";
 
 const App = () => {
@@ -12,7 +13,8 @@ const App = () => {
       {/* <Songs /> */}
       {/* <UseStateHook /> */}
       {/* <CardSlide /> */}
-      <Friends />
+      {/* <Friends /> */}
+      <Music />
     </>
   );
 };
