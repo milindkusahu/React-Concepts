@@ -4,7 +4,8 @@
 // import CardSlide from "./components/CardSlide";
 // import Friends from "./components/Friends/Friends";
 // import Music from "./components/Music/Music";
-import FormHandling from "./components/FormHandling/FormHandling";
+// import FromsUseRef from "./components/FormHandling/FromsUseRef";
+import Controlled from "./components/FormHandling/Controlled";
 
 // import "./App.css";
 
@@ -17,7 +18,8 @@ const App = () => {
       {/* <CardSlide /> */}
       {/* <Friends /> */}
       {/* <Music /> */}
-      <FormHandling />
+      {/* <FromsUseRef /> */}
+      <Controlled />
     </>
   );
 };

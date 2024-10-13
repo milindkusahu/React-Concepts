@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-const FormHandling = () => {
+const FromsUseRef = () => {
   const name = useRef(null);
   const age = useRef(null);
 
@@ -22,4 +22,4 @@ const FormHandling = () => {
   );
 };
 
-export default FormHandling;
+export default FromsUseRef;
