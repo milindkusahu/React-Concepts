@@ -5,7 +5,8 @@
 // import Friends from "./components/Friends/Friends";
 // import Music from "./components/Music/Music";
 // import FromsUseRef from "./components/FormHandling/FromsUseRef";
-import Controlled from "./components/FormHandling/Controlled";
+// import Controlled from "./components/FormHandling/Controlled";
+import ReactHookForms from "./components/FormHandling/ReactHookForms";
 
 // import "./App.css";
 
@@ -19,7 +20,8 @@ const App = () => {
       {/* <Friends /> */}
       {/* <Music /> */}
       {/* <FromsUseRef /> */}
-      <Controlled />
+      {/* <Controlled /> */}
+      <ReactHookForms />
     </>
   );
 };
