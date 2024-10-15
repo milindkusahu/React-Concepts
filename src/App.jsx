@@ -1,7 +1,7 @@
 // import Card from "./components/Card";
 // import Songs from "./components/Songs";
 // import UseStateHook from "./components/UseStateHook";
-// import CardSlide from "./components/CardSlide";
+// import CardSlide from "./components/CardSlide/CardSlide";
 // import Friends from "./components/Friends/Friends";
 // import Music from "./components/Music/Music";
 // import FromsUseRef from "./components/FormHandling/FromsUseRef";
