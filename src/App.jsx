@@ -6,7 +6,8 @@
 // import Music from "./components/Music/Music";
 // import FromsUseRef from "./components/FormHandling/FromsUseRef";
 // import Controlled from "./components/FormHandling/Controlled";
-import ReactHookForms from "./components/FormHandling/ReactHookForms";
+// import ReactHookForms from "./components/FormHandling/ReactHookForms";
+import UseEffectHook from "./components/UseEffectHook/UseEffectHook";
 
 // import "./App.css";
 
@@ -21,7 +22,8 @@ const App = () => {
       {/* <Music /> */}
       {/* <FromsUseRef /> */}
       {/* <Controlled /> */}
-      <ReactHookForms />
+      {/* <ReactHookForms /> */}
+      <UseEffectHook />
     </>
   );
 };
