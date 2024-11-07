@@ -7,6 +7,7 @@
 // import FromsUseRef from "./components/FormHandling/FromsUseRef";
 // import Controlled from "./components/FormHandling/Controlled";
 // import ReactHookForms from "./components/FormHandling/ReactHookForms";
+import Todo from "./components/Todo/Todo";
 import UseEffectHook from "./components/UseEffectHook/UseEffectHook";
 
 // import "./App.css";
@@ -23,7 +24,8 @@ const App = () => {
       {/* <FromsUseRef /> */}
       {/* <Controlled /> */}
       {/* <ReactHookForms /> */}
-      <UseEffectHook />
+      {/* <UseEffectHook /> */}
+      <Todo />
     </>
   );
 };
