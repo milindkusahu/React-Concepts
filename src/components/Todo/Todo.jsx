@@ -2,7 +2,11 @@ import React, { useEffect, useState } from "react";
 import styles from "./Todo.module.css";
 
 const Todo = () => {
-  const [toDoItem, setTodoItem] = useState([]);
+  const [toDoItem, setTodoItem] = useState(() => {
+    // Load the stored items from localStorage on initial render
+    const savedToDoItems = localStorage.getItem("toDoItem");
+    return savedToDoItems ? JSON.parse(savedToDoItems) : [];
+  });
   const [input, setInput] = useState("");
 
   const addToDoItem = () => {
@@ -17,15 +21,7 @@ const Todo = () => {
   };
 
   useEffect(() => {
-    const saveToDo = localStorage.getItem("toDoItem");
-    if (saveToDo) {
-      console.log("Loading saved todos from localStorage:", saveToDo);
-      setTodoItem(JSON.parse(saveToDo));
-    }
-  }, []);
-
-  useEffect(() => {
-    console.log("Saving todos to localStorage:", toDoItem);
+    // Save the updated todo items to localStorage whenever the list changes
     localStorage.setItem("toDoItem", JSON.stringify(toDoItem));
   }, [toDoItem]);
 
